@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BS CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- google font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>NameCard</title>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* .name {
+      font-size: 50px;
+    } */
+
+    @media(max-width:576px) {
+      .name {
+        font-size: 40px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="card" style="max-width:700px;">
+      <div class="row g-0">
+        <div class="col-12 col-md-4 bg-warning d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="./chew-logo-02.png">
+        </div>
+        <div class="col-12 col-md-8 d-flex align-items-center justify-content-center">
+          <div class="card-body ms-5 mt-5 mb-3">
+            <div>
+              <h5 class="card-text ">Front-End Designer</h5>
+              <h1 class="card-title name">PEI CHUN LEE</h1>
+              <h5 class="card-text " style="letter-spacing: 20px;">泰山職訓局</h5>
+              <p class="card-text mt-5 lh-base" style="letter-spacing: 2px;">
+                住址:20483新北市中山區中正路384巷3號<br>
+                電話:02-2331-3224#234<br>
+                E-Mail:vicky@gmail.com<br>
+                網站:http://www.vicky.example.tw
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 1.bundle包含 popper.js -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
